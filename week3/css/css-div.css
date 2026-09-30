@@ -1,0 +1,29 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Noto+Sans+TC:wght@100..900&family=Oswald:wght@200..700&family=Playwrite+CA+Guides&display=swap');
+
+
+h1 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    border-bottom: 5px dashed #000;
+    border-top: 2px dashed #000;
+    border-radius: 30px;
+    text-shadow: 10px 10px 5px #000000;
+
+    
+}
+p {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 48px;
+    background-image: url('/week3/images/images.jpg');
+    background-size: cover;
+}
+.text-bold {
+    
+    font-weight: normal;
+    font-size: 81px;
+    font-style: justify;
+    line-height: 1.5;
+}

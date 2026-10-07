@@ -1,0 +1,66 @@
+.big-box {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1536px;
+}
+
+
+.bg-img {
+    text-align: center;
+
+}
+
+
+.red {
+    color: orange;
+    padding: 20px;
+}
+
+.black {
+    padding: 20px;
+}
+
+.bg-phone {
+    display: flex;
+
+}
+
+
+.menu-burger {
+    display: none;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .phone-icon {
+        display: none;
+    }
+
+    .number {
+        display: none;
+    }
+
+    .contact-button {
+        display: none;
+    }
+
+    .menu-burger {
+        display: block;
+    }
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    .bg-name {
+        display: none;
+    }
+}

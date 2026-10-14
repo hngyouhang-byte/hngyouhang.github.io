@@ -1,0 +1,42 @@
+.vices {
+    display: flex;
+}
+
+.photo {
+    display: flex;
+    gap: 20px;
+
+}
+
+.photo img {
+    width: 100px;
+    height: auto;
+    width: 100%;
+}
+
+button {
+    size: 2cap;
+}
+
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column-reverse;
+
+    }
+
+
+    .photo {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .photo div {
+        width: 50%;
+        text-align: center;
+    }
+
+    .photo img {
+        width: 80%;
+    }
+
+}

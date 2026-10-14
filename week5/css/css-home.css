@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+
+}
+
+.request-quote {
+    border: 1px solid black;
+    gap: 10px;
+    border-radius: 5px;
+
+}
+
+.burger {
+    display: none;
+}
+
+.banner {
+    display: flex;
+    gap: 20px;
+
+}
+
+.banner-title .banner-image {
+    flex: 1;
+    display: flex;
+}
+
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+}
+
+.vices {
+    display: flex;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+.logos img {
+    width: 100px;
+    height: auto;
+}
+
+
+
+@media (max-width: 800px) {
+    .menu {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        flex-direction: column-reverse;
+
+    }
+
+
+    .logos {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .logos div {
+        width: 50%;
+        text-align: center;
+    }
+
+    .logos img {
+        width: 80%;
+    }
+
+}
